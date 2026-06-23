@@ -1,8 +1,6 @@
-
 # Hi there, I'm ST3PH-X! 👋
 
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License-MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ---
 Welcome to my research space! 
