@@ -1,0 +1,3 @@
+# Strict dependencies for ST3PH-X Shor Simulator
+cirq-core>=1.0.0
+numpy>=1.21.0
