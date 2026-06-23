@@ -1,0 +1,7 @@
+{
+    "name": "ST3PH-X Shor Simulator Space",
+    "build": {
+        "dockerfile": "../Dockerfile"
+    },
+    "postStartCommand": "python ecc_shor.py"
+}
