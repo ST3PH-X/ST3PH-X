@@ -30,7 +30,7 @@ If you have any questions, suggestions for expanding the simulation, or want to 
 
 The previous `Statistical resonance scanning` wall occurred because cascaded operations left the target register entangled with the scanning registers. Without an explicit "uncomputation" step to clean the auxiliary qubit space, measuring the system collapses the input states into white statistical noise, wiping out the interference peaks of the Inverse QFT.
 
-To solve this purely and efficiently, this implementation maps the cyclic group additions directly onto the **Eigenstate Phase Space**. By evaluating the exact order of the elements inside the sub-group and applying a relative phase factor \(\exp(1j \cdot \phi)\), we achieve perfect constructive interference lines. This bypasses the need for auxiliary memory registers entirely while remaining 100% faithful to the geometric properties of the elliptic curve.
+To solve this purely and efficiently, this implementation maps the cyclic group additions directly onto the **Eigenstate Phase Space**. By evaluating the exact order of the elements inside the sub-group and applying a relative phase factor $\exp(1j \cdot \phi)$, we achieve perfect constructive interference lines. This bypasses the need for auxiliary memory registers entirely while remaining 100% faithful to the geometric properties of the elliptic curve.
 
 ---
 
